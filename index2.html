@@ -1,0 +1,56 @@
+﻿<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta http-equiv="Content-Script-Type" content="text/javascript" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
+  <style>
+    #manchudiv{
+      margin:10px;
+      padding:10px;
+      border:1px #f00 solid;
+      writing-mode: tb-lr;
+      -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+      word-break: keep-all;
+      overflow:auto;
+      width: 50px;
+      height: 100px;
+      color:#3079ED;
+      font-size: 28px;
+      vertical-align:middle;
+      align:center;
+	  text-orientation: sideways-right;
+	  -webkit-text-orientation: sideways-right;
+    }
+    #normaldiv{
+      margin:20px;
+      padding:10px;
+      border:1px #f00 solid;
+      word-break: keep-all;
+      overflow:auto;
+      width: 100px;
+      height: 30px;
+      color:#3079ED;
+      font-size: 28px;
+      vertical-align:middle;
+      align:center;
+	  text-orientation: sideways-right;
+	  -webkit-text-orientation: sideways-right;
+    }
+    .MongolianWhite { font-family:"Mongolian White",宋体, SimSun, arial, helvetica, sans-serif; }
+
+  </style>
+</head>
+<body>
+
+竖排测试（不指定字体）：<br>
+<div id="manchudiv">
+ᠦᠭᠡᠢ ᠰᠤᠶᠤᠯ<br>
+</div>
+竖排测试（指定字体）：<br>
+<div id="manchudiv" class="MongolianWhite">
+ᠦᠭᠡᠢ ᠰᠤᠶᠤᠯ<br>
+</div>
+</body>
+</html>
